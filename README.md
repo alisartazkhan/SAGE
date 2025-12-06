@@ -12,7 +12,7 @@ This code is to process the videos into 5 minute chunks that collect meta data f
 
 To setup:
 * You need your own GCP project which you will then use to call the gemini API via google's vertexai. Using gemini's API from google AI studio doesn't give us similar results.
-* If you can't setup your own GCP project, use the output csv file and video we've provided to test out the two methods.
+* If you can't setup your own GCP project, use the sample csv files and videos we've provided to test out the two methods: [Gdrive Link](https://drive.google.com/drive/folders/1zDFP7yLmGo_1uUIfTsRKhwX-WD8WPacU?usp=sharing).
 
 #### Agentic Method
 This notebook implements our agentic video QA pipeline over long-form body-cam metadata. Given a user question and the full (or candidate) metadata table, an orchestrator LLM iteratively plans tool calls to:
