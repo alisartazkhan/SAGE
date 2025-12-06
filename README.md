@@ -2,7 +2,7 @@
 A conversational SUQL-powered agent that navigates long-form video, retrieves key events, and explains them through natural, interactive dialogue.
 
 ### Methods:
-* Pre-processing videos to collect metadata: `preprocess_videos.ipynb`
+* Pre-processing videos to collect metadata: `pre_process_videos.ipynb`
 * Agentic: `agentic.ipynb`
 * Hybrid SUQL: `<TODO ZAYN>`
 
