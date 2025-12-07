@@ -1,0 +1,22 @@
+speech_and_audio_cues_description,audio_context_description,use_of_force_description,compliance_and_behavior_description,excessive_force_description,key_moments_summary,scene_type,time_of_day,lighting,weather,camera_motion,camera_obfuscation_present,camera_obfuscation_spans,officers_count,officer_ethnicities,civilians_count,civilian_ethnicities,languages,use_of_force_present,use_of_force_types,potential_excessive_force_bool,segment_idx,start_sec,end_sec,summary
+"An individual, possibly a paramedic, describes a patient's injuries, stating, ""He's complaining of pain... everywhere. He has at least an abrasion on his knee, he has bloody mouth. He says his arm hurts, I'm not sure which one."" (0:01-0:07). Another officer then states, ""This guy is wanted for attempted murder, alright?"" (0:07-0:10). Background sounds include distant sirens and general street noise.","The audio environment features conversations between emergency personnel, the distinct sound of distant sirens, and general ambient outdoor noise, indicating an active emergency scene.","No use of force, either physical or with weapons, is observed or described in the video segment.","The individual on the stretcher appears to be a patient being tended to by emergency personnel. No active resistance or compliance commands are shown or heard. All visible individuals, including the patient and emergency responders, maintain calm and professional demeanor.","No instances of force, let alone excessive force, are depicted or implied during this video segment.","The video opens with a paramedic describing a patient's injuries, including an abrasion on the knee, bloody mouth, and arm pain (0:01-0:07). Subsequently, a police officer informs another individual that the patient is wanted for attempted murder (0:07-0:10). Emergency vehicles with flashing lights are visible in the background, and multiple emergency responders are present around a patient on a stretcher.",outdoor,dusk,mixed,clear,stable,False,[],1,['white'],4,"['unknown', 'hispanic', 'white', 'asian']",['english'],False,[],False,0,0,12.736,"speech_and_audio_cues_description: An individual, possibly a paramedic, describes a patient's injuries, stating, ""He's complaining of pain... everywhere. He has at least an abrasion on his knee, he has bloody mouth. He says his arm hurts, I'm not sure which one."" (0:01-0:07). Another officer then states, ""This guy is wanted for attempted murder, alright?"" (0:07-0:10). Background sounds include distant sirens and general street noise.
+audio_context_description: The audio environment features conversations between emergency personnel, the distinct sound of distant sirens, and general ambient outdoor noise, indicating an active emergency scene.
+use_of_force_description: No use of force, either physical or with weapons, is observed or described in the video segment.
+compliance_and_behavior_description: The individual on the stretcher appears to be a patient being tended to by emergency personnel. No active resistance or compliance commands are shown or heard. All visible individuals, including the patient and emergency responders, maintain calm and professional demeanor.
+excessive_force_description: No instances of force, let alone excessive force, are depicted or implied during this video segment.
+key_moments_summary: The video opens with a paramedic describing a patient's injuries, including an abrasion on the knee, bloody mouth, and arm pain (0:01-0:07). Subsequently, a police officer informs another individual that the patient is wanted for attempted murder (0:07-0:10). Emergency vehicles with flashing lights are visible in the background, and multiple emergency responders are present around a patient on a stretcher.
+scene_type: outdoor
+time_of_day: dusk
+lighting: mixed
+weather: clear
+camera_motion: stable
+camera_obfuscation_present: False
+camera_obfuscation_spans: []
+officers_count: 1
+officer_ethnicities: ['white']
+civilians_count: 4
+civilian_ethnicities: ['unknown', 'hispanic', 'white', 'asian']
+languages: ['english']
+use_of_force_present: False
+use_of_force_types: []
+potential_excessive_force_bool: False"
