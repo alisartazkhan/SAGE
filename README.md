@@ -30,6 +30,18 @@ Setup the following API Keys in google colab secrets:
  - GEMINI_API_KEY
 <img width="531" height="294" alt="image" src="https://github.com/user-attachments/assets/ff306a51-65c6-44db-b42d-d990e9621ff6" />
 
-#### Hybrid SUQL Method
-`<TODO ZAYN>`
+### Hybrid SUQL Method (`SUQL_CS224V.ipynb`)
+This notebook implements the structured retrieval layer using **SUQL (Semantic SQL)**. The primary goal is to create a **hallucination-free** agent that provides auditable answers. When a question cannot be answered from the database schema, it will explicitly respond with "I DON'T KNOW" rather than guessing.
+
+**How it works:**
+The notebook establishes an in-memory PostgreSQL database and launches two local services:
+1.  **SUQL Embedding Server:** Embeds textual columns (descriptions, summaries) into a vector space for semantic search.
+2.  **Free-Text Functions Server:** Provides the `answer()` predicate, allowing the LLM to perform semantic classification on text fields within a standard SQL query.
+
+**Setup & Usage:**
+1.  **API Keys:** Ensure your `OPENAI_API_KEY` is configured in the environment.
+2.  **Required Files:** You **must** upload the following files to your Colab environment before running:
+    * `bodycam.prompt` (The schema-grounded system prompt).
+    * Your metadata CSV file (e.g., `17-122-1019 BWC_Redacted-1.csv`).
+3.  **Sequential Execution:** Run all cells sequentially from top to bottom. This ensures the background embedding and free-text servers are initialized before the database is queried.
 
