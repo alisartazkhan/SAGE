@@ -4,7 +4,7 @@ A conversational SUQL-powered agent that navigates long-form video, retrieves ke
 ### Methods:
 * Pre-processing videos to collect metadata: `pre_process_videos.ipynb`
 * Agentic: `agentic.ipynb`
-* Hybrid SUQL: `<TODO ZAYN>`
+* Hybrid SUQL: `SUQL_CS224V.ipynb`
 
 
 #### Pre-processing Videos
