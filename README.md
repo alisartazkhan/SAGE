@@ -39,7 +39,7 @@ The notebook establishes an in-memory PostgreSQL database and launches two local
 2.  **Free-Text Functions Server:** Provides the `answer()` predicate, allowing the LLM to perform semantic classification on text fields within a standard SQL query.
 
 **Setup & Usage:**
-1.  **API Keys:** Ensure your `OPENAI_API_KEY` is configured in the environment.
+1.  **API Keys:** Ensure your `OPENAI_API_KEY` and other required secrets are configured in the environment.
 2.  **Required Files:** You **must** upload the following files to your Colab environment before running:
     * `bodycam.prompt` (The schema-grounded system prompt).
     * Your metadata CSV file (e.g., `17-122-1019 BWC_Redacted-1.csv`).
